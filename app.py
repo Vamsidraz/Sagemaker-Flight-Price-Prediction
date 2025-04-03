@@ -276,7 +276,7 @@ st.set_page_config(
 
 st.title("Flights Prices Prediction - AWS SageMaker")
 
-# user inputs
+# user 
 airline = st.selectbox(
 	"Airline:",
 	options=X_train.airline.unique()
